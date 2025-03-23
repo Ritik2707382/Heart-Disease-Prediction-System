@@ -1,45 +1,81 @@
-                                           ** Heart Disease Prediction System**
-  Thus preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.
+Heart Disease Prediction System
 
-**Steps to predict the Heart Disease**
-  1. Understanding the Problem
-  2.Reading and understanding the data
-  3.Exploratory Data Analysis and visualisation
-  4.Modeling
-  5.Generate Insight
+Heart disease is one of the leading causes of death worldwide. Early detection and prevention have become more crucial than ever. Data-driven systems for predicting heart disease can significantly enhance research and prevention strategies, ultimately helping more people lead healthier lives. This is where Machine Learning (ML) comes into play. ML models can accurately predict the likelihood of heart disease, enabling timely intervention.
 
-**Objective**
-In this project we are going to perform some analysis to discover different insights about the Heart disease and develop different ML models(Naive Bayes,Logistic Regression,Decision Tree,Random Forest) to predict the chances of Heart Disease based on some relevant features.
+🔍 Steps to Predict Heart Disease
 
-**Dataset**
-There are 14 features in the dataset, which are described as:
-1. age: age in years
-2.sex: sex (1 = male; 0 = female)
-3.cp: chest pain type
-   Value 0: typical angina
-   Value 1: atypical angina
-   Value 2: non-anginal pain
-   Value 3: asymptomatic
-4.trestbps: resting blood pressure (in mm Hg on admission to the hospital)
-5.chol: serum cholestoral in mg/dl
-6. fbs: (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
-7.restecg: resting electrocardiographic results
-   Value 0: normal
-   Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
-   Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
-8.thalach: maximum heart rate achieved
+Understanding the Problem – Define the objectives and requirements for heart disease prediction.
 
-**Result**
-After training all the models random forest is selected as best model with an accuracy of 96.18%
-9.exang: exercise induced angina (1 = yes; 0 = no)
-10.oldpeak = ST depression induced by exercise relative to rest
-11.slope: the slope of the peak exercise ST segment
-  Value 0: upsloping
-  Value 1: flat
-  Value 2: downsloping
-12.ca: number of major vessels (0-3) colored by flourosopy
-13.thal: Thalessemia
-   0 = normal
-  1 = fixed defect
-  2 = reversable defect
-14.condition: 0 = no disease, 1 = disease
+Reading and Understanding the Data – Load and analyze the dataset to extract meaningful insights.
+
+Exploratory Data Analysis (EDA) & Visualization – Identify patterns, correlations, and relationships between features.
+
+Modeling – Train different machine learning models to predict heart disease.
+
+Generating Insights – Evaluate model performance and determine the most effective model.
+
+🎯 Objective
+
+The primary goal of this project is to analyze heart disease data and develop multiple machine learning models (Naïve Bayes, Logistic Regression, Decision Tree, Random Forest) to predict the likelihood of heart disease based on relevant medical features. After evaluation, the best-performing model is selected for deployment.
+
+📊 Dataset
+
+The dataset consists of 14 features, each contributing to the prediction of heart disease. Below is a brief description of these features:
+
+age: Age in years
+
+sex: Gender (1 = Male, 0 = Female)
+
+cp (Chest Pain Type):
+
+0: Typical Angina
+
+1: Atypical Angina
+
+2: Non-Anginal Pain
+
+3: Asymptomatic
+
+trestbps: Resting blood pressure (in mm Hg) on admission
+
+chol: Serum cholesterol (mg/dl)
+
+fbs: Fasting blood sugar (>120 mg/dl) (1 = True, 0 = False)
+
+restecg (Resting ECG Results):
+
+0: Normal
+
+1: ST-T wave abnormality
+
+2: Left ventricular hypertrophy by Estes’ criteria
+
+thalach: Maximum heart rate achieved
+
+exang: Exercise-induced angina (1 = Yes, 0 = No)
+
+oldpeak: ST depression induced by exercise relative to rest
+
+slope (ST Segment Slope):
+
+0: Upsloping
+
+1: Flat
+
+2: Downsloping
+
+ca: Number of major vessels (0-3) colored by fluoroscopy
+
+thal (Thalassemia):
+
+0: Normal
+
+1: Fixed defect
+
+2: Reversible defect
+
+condition: Target variable (0 = No Disease, 1 = Disease)
+
+🏆 Results
+
+After training multiple models, Random Forest was selected as the best-performing model with an accuracy of 96.18%.
