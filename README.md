@@ -15,10 +15,11 @@ Heart disease prevention has become more critical than ever. Good data-driven sy
 
 ## 🎯 Objective  
 In this project, we analyze heart disease data to uncover insights and develop different ML models, including:  
-✅ Naive Bayes  
-✅ Logistic Regression  
-✅ Decision Tree  
-✅ Random Forest  
+1. Naive Bayes  
+2.Logistic Regression  
+3. Decision Tree  
+4. Random Forest
+5. KNN Model 
 
 The goal is to predict heart disease risk based on relevant features.
 
